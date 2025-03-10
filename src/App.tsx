@@ -7,6 +7,8 @@ import GallerySection from './components/Gallery';
 import ContactSection from './components/ContactForm';
 import Footer from './components/Footer';
 import BookingPage from './components/BookingForm';
+import  Login from './components/LoginForm';
+import SignupForm from './components/SignupForm';
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/gallery" element={<GallerySection />} />
         <Route path="/contact" element={<ContactSection />} />
         <Route path="/booking" element={<BookingPage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignupForm />} />
       </Routes>
       <Footer />
     </div>
